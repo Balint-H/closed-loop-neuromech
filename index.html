@@ -424,6 +424,11 @@
     
     <div class="content has-text-justified">
       <h2 class="title is-3">Closed-loop Control and Adaptation</h2>
+	  
+	  <img src="static/images/explain.jpg" alt="First research result visualization" loading="lazy"/>
+	  <h2 class="subtitle has-text-justified" style="font-size: 1rem !important; color: var(--text-secondary) !important;">
+            <strong>In the first phase of RL,</strong> a control policy is learnt to follow arbitrary gesture patterns. The synthetic signals from this agent are used to train a <strong>virtual subject-specific decoder</strong> offline using supervised learning. <strong>In the second phase</strong>, the agent adapts the motor behaviour to improve the performance with the fixed-parameter decoder, instead of still pursuing an imitation learning goal.
+      </h2>
       <p>
         We demonstrate a model of adaptation and closed-loop control in a virtual user of a EMG-driven HMI. The impact that closed-loop control and adaptation has on behaviour is significant, and should not be ignored entirely in neuromechanical models. Our open-source framework serves as a virtual prototyping platform for arm-worn EMG interfaces.
       </p>
