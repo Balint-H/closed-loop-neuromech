@@ -1,5 +1,8 @@
 This repository will contain the closed-loop EMG simulation environments after the publication of our project. Please check back soon for our 1.0 release!
 
+View as a website:
+https://balint-h.github.io/closed-loop-neuromech/
+
 ## Acknowledgments
 The website of this project was produced using the [Academic Project Page](https://github.com/eliahuhorwitz/Academic-project-page-template) template.
 
